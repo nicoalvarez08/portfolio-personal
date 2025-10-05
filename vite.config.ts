@@ -8,5 +8,8 @@ export default defineConfig({
     rollupOptions: {
       external: ['react', 'react-dom']
     }
+  },
+  esbuild: {
+    logOverride: { 'this-is-undefined-in-esm': 'silent' }
   }
 })
