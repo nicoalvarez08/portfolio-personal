@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Download, Github, Linkedin, Mail } from 'lucide-react'
+import { Github, Linkedin, Mail } from 'lucide-react'
 
 const Hero: React.FC = () => {
   const containerVariants = {
@@ -25,10 +25,10 @@ const Hero: React.FC = () => {
     }
   }
 
-  const handleDownloadCV = () => {
-    // Aquí puedes agregar la lógica para descargar tu CV
-    console.log('Descargando CV...')
-  }
+  // const handleDownloadCV = () => {
+  //   // Aquí puedes agregar la lógica para descargar tu CV
+  //   console.log('Descargando CV...')
+  // }
 
   const socialLinks = [
     {

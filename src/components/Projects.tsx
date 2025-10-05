@@ -88,7 +88,7 @@ const Projects: React.FC = () => {
     }
   ]
 
-  const categories = ['Todos', 'Full Stack', 'Full Stack + Data Science', 'Data Science', 'Backend', 'Frontend']
+  // const categories = ['Todos', 'Full Stack', 'Full Stack + Data Science', 'Data Science', 'Backend', 'Frontend']
 
   return (
     <section id="projects" className="section-padding bg-gradient-to-br from-dark-50 to-white dark:from-dark-800 dark:to-dark-900">

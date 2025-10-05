@@ -5,7 +5,6 @@ import {
   Server, 
   Database, 
   Brain, 
-  Cloud, 
   GitBranch,
   Shield,
   Zap
@@ -34,69 +33,69 @@ const Skills: React.FC = () => {
     }
   }
 
-  const skillCategories = [
-    {
-      title: 'Frontend Development',
-      icon: Code,
-      skills: [
-        { name: 'HTML', level: 90 },
-        { name: 'CSS', level: 85 },
-        { name: 'JavaScript', level: 88 },
-        { name: 'React', level: 85 },
-        { name: 'Responsive Design', level: 80 }
-      ]
-    },
-    {
-      title: 'Backend Development',
-      icon: Server,
-      skills: [
-        { name: 'Node.js', level: 85 },
-        { name: 'Express.js', level: 80 },
-        { name: 'JavaScript', level: 88 },
-        { name: 'REST APIs', level: 75 }
-      ]
-    },
-    {
-      title: 'Bases de Datos',
-      icon: Database,
-      skills: [
-        { name: 'MySQL', level: 80 },
-        { name: 'MongoDB', level: 82 },
-        { name: 'SQL Queries', level: 78 },
-        { name: 'NoSQL', level: 75 }
-      ]
-    },
-    {
-      title: 'Data Science',
-      icon: Brain,
-      skills: [
-        { name: 'Python', level: 85 },
-        { name: 'Análisis de Datos', level: 80 },
-        { name: 'Pensamiento Lógico', level: 90 },
-        { name: 'Programación', level: 85 }
-      ]
-    },
-    {
-      title: 'Herramientas',
-      icon: GitBranch,
-      skills: [
-        { name: 'Git', level: 85 },
-        { name: 'GitHub', level: 88 },
-        { name: 'VS Code', level: 90 },
-        { name: 'Terminal', level: 75 }
-      ]
-    },
-    {
-      title: 'Metodologías',
-      icon: Shield,
-      skills: [
-        { name: 'Trabajo en Equipo', level: 90 },
-        { name: 'Enfoque Ágil', level: 80 },
-        { name: 'Resolución de Problemas', level: 92 },
-        { name: 'Aprendizaje Continuo', level: 95 }
-      ]
-    }
-  ]
+  // const skillCategories = [
+  //   {
+  //     title: 'Frontend Development',
+  //     icon: Code,
+  //     skills: [
+  //       { name: 'HTML', level: 90 },
+  //       { name: 'CSS', level: 85 },
+  //       { name: 'JavaScript', level: 88 },
+  //       { name: 'React', level: 85 },
+  //       { name: 'Responsive Design', level: 80 }
+  //     ]
+  //   },
+  //   {
+  //     title: 'Backend Development',
+  //     icon: Server,
+  //     skills: [
+  //       { name: 'Node.js', level: 85 },
+  //       { name: 'Express.js', level: 80 },
+  //       { name: 'JavaScript', level: 88 },
+  //       { name: 'REST APIs', level: 75 }
+  //     ]
+  //   },
+  //   {
+  //     title: 'Bases de Datos',
+  //     icon: Database,
+  //     skills: [
+  //       { name: 'MySQL', level: 80 },
+  //       { name: 'MongoDB', level: 82 },
+  //       { name: 'SQL Queries', level: 78 },
+  //       { name: 'NoSQL', level: 75 }
+  //     ]
+  //   },
+  //   {
+  //     title: 'Data Science',
+  //     icon: Brain,
+  //     skills: [
+  //       { name: 'Python', level: 85 },
+  //       { name: 'Análisis de Datos', level: 80 },
+  //       { name: 'Pensamiento Lógico', level: 90 },
+  //       { name: 'Programación', level: 85 }
+  //     ]
+  //   },
+  //   {
+  //     title: 'Herramientas',
+  //     icon: GitBranch,
+  //     skills: [
+  //       { name: 'Git', level: 85 },
+  //       { name: 'GitHub', level: 88 },
+  //       { name: 'VS Code', level: 90 },
+  //       { name: 'Terminal', level: 75 }
+  //     ]
+  //   },
+  //   {
+  //     title: 'Metodologías',
+  //     icon: Shield,
+  //     skills: [
+  //       { name: 'Trabajo en Equipo', level: 90 },
+  //       { name: 'Enfoque Ágil', level: 80 },
+  //       { name: 'Resolución de Problemas', level: 92 },
+  //       { name: 'Aprendizaje Continuo', level: 95 }
+  //     ]
+  //   }
+  // ]
 
   const technologies = [
     'HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Express.js',
