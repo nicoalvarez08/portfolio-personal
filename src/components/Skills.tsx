@@ -300,14 +300,14 @@ const Skills: React.FC = () => {
                 issuer: 'UTN Buenos Aires',
                 year: '2025',
                 hours: '75 horas',
-                image: './images/cert-fullstack.jpg'
+                image: '/images/cert-fullstack.jpg'
               },
               {
                 name: 'Ciencias de Datos con Python',
                 issuer: 'UTN Buenos Aires',
                 year: '2024',
                 hours: '24 horas',
-                image: './images/cert-datascience.jpg'
+                image: '/images/cert-datascience.jpg'
               },
               {
                 name: 'Ingeniería Mecánica',

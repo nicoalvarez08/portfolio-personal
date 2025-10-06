@@ -140,7 +140,7 @@ const About: React.FC = () => {
               <div className="flex items-center mb-6">
                 <div className="w-24 h-24 mr-6 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group">
                   <img 
-                    src="./images/cert-fullstack.jpg" 
+                    src="/images/cert-fullstack.jpg" 
                     alt="Certificado Full Stack"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -166,7 +166,7 @@ const About: React.FC = () => {
               <div className="flex items-center mb-6">
                 <div className="w-24 h-24 mr-6 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group">
                   <img 
-                    src="./images/cert-datascience.jpg" 
+                    src="/images/cert-datascience.jpg" 
                     alt="Certificado Data Science"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
