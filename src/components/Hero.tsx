@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Github, Linkedin, Mail } from 'lucide-react'
+import profilePhoto from '../assets/profile-photo.jpg'
 
 const Hero: React.FC = () => {
   const containerVariants = {
@@ -132,7 +133,7 @@ const Hero: React.FC = () => {
             >
               <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-2xl border-4 border-primary-200 dark:border-primary-800">
                 <img 
-                  src="/images/profile-photo.jpg" 
+                  src={profilePhoto} 
                   alt="Nicolas Álvarez" 
                   className="w-full h-full object-cover"
                 />

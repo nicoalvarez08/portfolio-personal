@@ -9,6 +9,8 @@ import {
   Shield,
   Zap
 } from 'lucide-react'
+import certFullstack from '../assets/cert-fullstack.jpg'
+import certDatascience from '../assets/cert-datascience.jpg'
 
 const Skills: React.FC = () => {
   const containerVariants = {
@@ -300,14 +302,14 @@ const Skills: React.FC = () => {
                 issuer: 'UTN Buenos Aires',
                 year: '2025',
                 hours: '75 horas',
-                image: '/images/cert-fullstack.jpg'
+                image: certFullstack
               },
               {
                 name: 'Ciencias de Datos con Python',
                 issuer: 'UTN Buenos Aires',
                 year: '2024',
                 hours: '24 horas',
-                image: '/images/cert-datascience.jpg'
+                image: certDatascience
               },
               {
                 name: 'Ingeniería Mecánica',
