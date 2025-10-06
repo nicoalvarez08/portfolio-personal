@@ -138,11 +138,11 @@ const About: React.FC = () => {
               className="bg-white dark:bg-dark-800 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
               <div className="flex items-center mb-6">
-                <div className="w-24 h-24 mr-6 rounded-xl overflow-hidden shadow-md">
+                <div className="w-24 h-24 mr-6 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group">
                   <img 
                     src="./images/cert-fullstack.jpg" 
                     alt="Certificado Full Stack"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                 </div>
                 <div>
@@ -164,11 +164,11 @@ const About: React.FC = () => {
               className="bg-white dark:bg-dark-800 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
               <div className="flex items-center mb-6">
-                <div className="w-24 h-24 mr-6 rounded-xl overflow-hidden shadow-md">
+                <div className="w-24 h-24 mr-6 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group">
                   <img 
                     src="./images/cert-datascience.jpg" 
                     alt="Certificado Data Science"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                 </div>
                 <div>
