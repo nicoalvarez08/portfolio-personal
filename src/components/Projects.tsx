@@ -47,24 +47,24 @@ const Projects: React.FC = () => {
       impact: 'Tienda online funcional para negocio familiar'
     },
     {
-      title: 'Sistema de Gestión Empresarial con IA',
-      description: 'Aplicación web empresarial con funcionalidades de IA para optimización de procesos y toma de decisiones.',
-      longDescription: 'Sistema integral de gestión empresarial que combina desarrollo full stack con análisis de datos e IA. Implementé algoritmos de machine learning para predicción de demanda, optimización de recursos y análisis de patrones de comportamiento del usuario.',
+      title: 'Dashboard de Analytics Empresarial',
+      description: 'Panel de control completo con visualización de datos en tiempo real, métricas empresariales y gráficos interactivos.',
+      longDescription: 'Desarrollé un dashboard de analytics profesional utilizando React y librerías de visualización de datos, implementando funcionalidades como gráficos interactivos, métricas en tiempo real, filtros avanzados y diseño responsive. El dashboard permite análisis profundo de datos empresariales con una interfaz intuitiva.',
       image: '/api/placeholder/600/400',
-      technologies: ['React', 'Python', 'Flask', 'TensorFlow', 'PostgreSQL', 'Docker', 'Redis'],
-      category: 'Full Stack + AI',
+      technologies: ['React', 'Chart.js', 'JavaScript', 'CSS3', 'Data Visualization', 'Analytics'],
+      category: 'Frontend + Analytics',
       features: [
-        'Algoritmos de ML para predicción de demanda',
-        'Dashboard ejecutivo con KPIs en tiempo real',
-        'Sistema de alertas inteligentes',
-        'API REST documentada con Swagger',
-        'Análisis predictivo de comportamiento',
-        'Optimización automática de recursos'
+        'Gráficos interactivos y visualizaciones en tiempo real',
+        'Métricas y KPIs empresariales',
+        'Filtros avanzados por fecha y categorías',
+        'Dashboard responsive y optimizado',
+        'Interfaz intuitiva para toma de decisiones',
+        'Exportación de reportes y datos'
       ],
-      github: 'https://github.com/nicolas-alvarez-dev/enterprise-ai-system',
-      demo: 'https://enterprise-ai-demo.vercel.app',
-      status: 'MVP Complete',
-      impact: 'Redujo costos operativos en 28%'
+      github: 'https://github.com/nicoalvarez08/dashboard-analytics',
+      demo: 'https://dashboard-analytics-nicoalvarez08.netlify.app/dashboard/analytics',
+      status: 'Funcional',
+      impact: 'Dashboard profesional para análisis de datos'
     },
     {
       title: 'Plataforma de Análisis de Datos Financieros',
