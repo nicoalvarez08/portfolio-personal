@@ -27,24 +27,24 @@ const Projects: React.FC = () => {
 
   const projects = [
     {
-      title: 'E-commerce Profesional con Dashboard Analytics',
-      description: 'Plataforma de comercio electrónico completa con sistema de analytics en tiempo real, optimizada para escalabilidad empresarial.',
-      longDescription: 'Desarrollé una aplicación e-commerce robusta utilizando el stack MERN, implementando funcionalidades avanzadas como dashboard de analytics, sistema de recomendaciones, gestión de inventario y reportes automatizados. La aplicación incluye autenticación JWT, pagos integrados y panel administrativo completo.',
+      title: 'Tienda de Ropa Infantil - E-commerce Completo',
+      description: 'Plataforma de comercio electrónico desarrollada para negocio familiar especializado en ropa para niños, niñas y bebés.',
+      longDescription: 'Desarrollé una tienda online completa utilizando React y tecnologías modernas, implementando funcionalidades como catálogo de productos, carrito de compras, sistema de filtros, diseño responsive y optimización para móviles. La aplicación está optimizada para conversión y experiencia de usuario.',
       image: '/api/placeholder/600/400',
-      technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Chart.js', 'Stripe API'],
-      category: 'Full Stack',
+      technologies: ['React', 'JavaScript', 'CSS3', 'HTML5', 'Responsive Design', 'E-commerce'],
+      category: 'Frontend + E-commerce',
       features: [
-        'Dashboard de analytics en tiempo real con métricas de ventas',
-        'Sistema de autenticación JWT con roles de usuario',
-        'Carrito de compras persistente y optimizado',
-        'Panel administrativo con gestión de productos',
-        'Integración con APIs de pago y envío',
-        'Sistema de notificaciones push'
+        'Catálogo completo de productos con filtros avanzados',
+        'Carrito de compras funcional y persistente',
+        'Diseño responsive optimizado para móviles',
+        'Interfaz intuitiva y atractiva para familias',
+        'Sistema de categorías (niños, niñas, bebés)',
+        'Optimización para conversión y ventas'
       ],
-      github: 'https://github.com/nicolas-alvarez-dev/ecommerce-analytics',
-      demo: 'https://ecommerce-analytics-demo.vercel.app',
-      status: 'Production Ready',
-      impact: 'Aumentó conversión en 35% con analytics predictivos'
+      github: 'https://github.com/nicoalvarez08/tienda-ropa-infantil',
+      demo: 'https://golden-dasik-af0931.netlify.app/',
+      status: 'En Producción',
+      impact: 'Tienda online funcional para negocio familiar'
     },
     {
       title: 'Sistema de Gestión Empresarial con IA',
