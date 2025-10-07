@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { ExternalLink, Github, ArrowRight, Star } from 'lucide-react'
+import { ExternalLink, Github, ArrowRight, Star, Play, Code, BookOpen } from 'lucide-react'
 
 const Projects: React.FC = () => {
   const containerVariants = {
@@ -235,24 +235,33 @@ const Projects: React.FC = () => {
                 </div>
 
                 {/* Project Links */}
-                <div className="flex space-x-3">
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-center flex-1 bg-dark-100 dark:bg-dark-700 hover:bg-dark-200 dark:hover:bg-dark-600 text-dark-700 dark:text-dark-300 py-2 px-4 rounded-lg transition-colors duration-200"
-                  >
-                    <Github size={16} className="mr-2" />
-                    Código
-                  </a>
+                <div className="flex flex-wrap gap-3">
                   <a
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center flex-1 bg-primary-600 hover:bg-primary-700 text-white py-2 px-4 rounded-lg transition-colors duration-200"
+                    className="flex items-center justify-center flex-1 min-w-[120px] bg-primary-600 hover:bg-primary-700 text-white py-3 px-4 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
                   >
-                    <ExternalLink size={16} className="mr-2" />
-                    Demo
+                    <Play size={16} className="mr-2" />
+                    Ver Demo
+                  </a>
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center flex-1 min-w-[120px] bg-dark-100 dark:bg-dark-700 hover:bg-dark-200 dark:hover:bg-dark-600 text-dark-700 dark:text-dark-300 py-3 px-4 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
+                  >
+                    <Code size={16} className="mr-2" />
+                    Ver Código
+                  </a>
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center flex-1 min-w-[120px] bg-green-100 dark:bg-green-900 hover:bg-green-200 dark:hover:bg-green-800 text-green-700 dark:text-green-300 py-3 px-4 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
+                  >
+                    <BookOpen size={16} className="mr-2" />
+                    Documentación
                   </a>
                 </div>
               </div>
@@ -279,11 +288,12 @@ const Projects: React.FC = () => {
               Visita mi GitHub para explorar todos mis proyectos y contribuciones.
             </p>
             <a
-              href="https://github.com/tu-usuario"
+              href="https://github.com/nicoalvarez08"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center bg-white text-primary-600 hover:bg-primary-50 font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-lg"
+              className="inline-flex items-center bg-white text-primary-600 hover:bg-primary-50 font-semibold py-3 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
             >
+              <Github size={20} className="mr-2" />
               Ver en GitHub
               <ArrowRight size={20} className="ml-2" />
             </a>
