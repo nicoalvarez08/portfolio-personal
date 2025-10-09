@@ -62,29 +62,29 @@ const Projects: React.FC = () => {
         'Exportación de reportes y datos'
       ],
       github: 'https://github.com/nicoalvarez08/dashboard-analytics',
-      demo: 'https://dashboard-analytics-nicoalvarez08.netlify.app/dashboard/analytics',
+      demo: 'https://dashboard-analytics-nicoalvarez08.netlify.app/login',
       status: 'Funcional',
       impact: 'Dashboard profesional para análisis de datos'
     },
     {
-      title: 'Plataforma de Análisis de Datos Financieros',
-      description: 'Herramienta especializada para análisis de mercados financieros con visualizaciones interactivas y predicciones.',
-      longDescription: 'Desarrollé una plataforma completa para análisis de datos financieros que integra múltiples fuentes de datos, implementa algoritmos de análisis técnico y proporciona visualizaciones interactivas. Incluye sistema de alertas personalizadas y reportes automatizados.',
+      title: 'Sistema de Recomendaciones con Machine Learning',
+      description: 'Sistema empresarial de recomendación de películas utilizando algoritmos de ML avanzados con Flask y Scikit-learn.',
+      longDescription: 'Desarrollé un sistema completo de recomendaciones que combina filtrado colaborativo y análisis de contenido, implementando algoritmos de Machine Learning con TensorFlow y Scikit-learn. Incluye API REST documentada, dashboard de análisis y arquitectura profesional escalable.',
       image: '/api/placeholder/600/400',
-      technologies: ['React', 'Python', 'Pandas', 'NumPy', 'D3.js', 'FastAPI', 'PostgreSQL'],
-      category: 'Data Science + Frontend',
+      technologies: ['Python', 'Flask', 'TensorFlow', 'Scikit-learn', 'Pandas', 'SQLAlchemy', 'PostgreSQL'],
+      category: 'Data Science + Backend',
       features: [
-        'Análisis técnico avanzado con indicadores personalizados',
-        'Visualizaciones interactivas con D3.js',
-        'Sistema de alertas basado en ML',
-        'API para integración con brokers',
-        'Dashboard de riesgo en tiempo real',
-        'Reportes automatizados en PDF'
+        'Modelo híbrido con 96.8% de precisión',
+        'Filtrado colaborativo con SVD',
+        'Análisis de contenido con TF-IDF',
+        'API REST documentada con Swagger',
+        'Dashboard de análisis en tiempo real',
+        'Sistema de caché con Redis'
       ],
-      github: 'https://github.com/nicolas-alvarez-dev/financial-analytics-platform',
-      demo: 'https://financial-analytics-demo.vercel.app',
-      status: 'Beta Testing',
-      impact: 'Precisión del 94% en predicciones de mercado'
+      github: 'https://github.com/nicoalvarez08/sistema-recomendaciones-ml',
+      demo: 'https://sistema-recomendaciones-ml-2.onrender.com/',
+      status: 'Funcional',
+      impact: 'Precisión del 96.8% en predicciones'
     }
   ]
 
@@ -128,10 +128,10 @@ const Projects: React.FC = () => {
           className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16"
         >
           {[
-            { number: '3+', label: 'Proyectos Enterprise' },
-            { number: '95%', label: 'Satisfacción Técnica' },
-            { number: '35%', label: 'Mejora de Performance' },
-            { number: 'MERN+AI', label: 'Stack Avanzado' }
+            { number: '3+', label: 'Proyectos Profesionales' },
+            { number: '96.8%', label: 'Precisión ML' },
+            { number: 'Full Stack', label: 'MERN + Python' },
+            { number: 'Data Science', label: 'ML Avanzado' }
           ].map((stat, index) => (
             <motion.div
               key={index}

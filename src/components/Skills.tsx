@@ -6,11 +6,8 @@ import {
   Database, 
   Brain, 
   GitBranch,
-  Shield,
-  Zap
+  Shield
 } from 'lucide-react'
-import certFullstack from '../assets/cert-fullstack.jpg'
-import certDatascience from '../assets/cert-datascience.jpg'
 
 const Skills: React.FC = () => {
   const containerVariants = {
@@ -277,82 +274,6 @@ const Skills: React.FC = () => {
           </motion.div>
         </motion.div>
 
-        {/* Certifications Section */}
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          className="mt-16"
-        >
-          <motion.h3
-            variants={itemVariants}
-            className="text-2xl font-bold text-dark-900 dark:text-white mb-8 text-center"
-          >
-            Certificaciones
-          </motion.h3>
-          
-          <motion.div
-            variants={containerVariants}
-            className="grid md:grid-cols-3 gap-6"
-          >
-            {[
-              {
-                name: 'Professional Full Stack',
-                issuer: 'UTN Buenos Aires',
-                year: '2025',
-                hours: '75 horas',
-                image: certFullstack
-              },
-              {
-                name: 'Ciencias de Datos con Python',
-                issuer: 'UTN Buenos Aires',
-                year: '2024',
-                hours: '24 horas',
-                image: certDatascience
-              },
-              {
-                name: 'Ingeniería Mecánica',
-                issuer: 'UTN Córdoba',
-                year: 'En curso',
-                hours: 'En progreso',
-                image: null
-              }
-            ].map((cert, index) => (
-              <motion.div
-                key={index}
-                variants={itemVariants}
-                className="bg-white dark:bg-dark-800 p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow duration-300"
-              >
-                <div className="w-20 h-20 mx-auto mb-4 rounded-lg overflow-hidden shadow-md">
-                  {cert.image ? (
-                    <img 
-                      src={cert.image} 
-                      alt={`Certificado ${cert.name}`}
-                      className="w-full h-full object-cover"
-                    />
-                  ) : (
-                    <div className="w-full h-full bg-primary-100 dark:bg-primary-900/30 rounded-lg flex items-center justify-center">
-                      <Zap className="w-8 h-8 text-primary-600" />
-                    </div>
-                  )}
-                </div>
-                <h4 className="font-semibold text-dark-900 dark:text-white mb-2 text-sm">
-                  {cert.name}
-                </h4>
-                <p className="text-xs text-dark-600 dark:text-dark-300 mb-1">
-                  {cert.issuer}
-                </p>
-                <p className="text-xs text-primary-600 font-medium">
-                  {cert.year}
-                </p>
-                <p className="text-xs text-dark-500 mt-1">
-                  {cert.hours}
-                </p>
-              </motion.div>
-            ))}
-          </motion.div>
-        </motion.div>
       </div>
     </section>
   )

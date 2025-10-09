@@ -58,30 +58,6 @@ const Experience: React.FC = () => {
     }
   ]
 
-  const education = [
-    {
-      degree: 'Ingeniería Mecánica',
-      institution: 'Universidad Tecnológica Nacional',
-      location: 'Córdoba, Argentina',
-      period: 'En curso',
-      gpa: 'En progreso'
-    },
-    {
-      degree: 'Curso Profesional Full Stack',
-      institution: 'UTN Buenos Aires',
-      location: 'Online',
-      period: '2025',
-      gpa: '75 horas'
-    },
-    {
-      degree: 'Ciencia de Datos con Python',
-      institution: 'UTN Buenos Aires',
-      location: 'Online',
-      period: '2024',
-      gpa: '24 horas'
-    }
-  ]
-
   return (
     <section id="experience" className="section-padding bg-white dark:bg-dark-900">
       <div className="container-custom">
@@ -204,62 +180,6 @@ const Experience: React.FC = () => {
           ))}
         </motion.div>
 
-        {/* Education Section */}
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          className="mt-20"
-        >
-          <motion.h2
-            variants={itemVariants}
-            className="text-3xl md:text-4xl font-bold text-dark-900 dark:text-white mb-8 text-center"
-          >
-            Formación Académica
-          </motion.h2>
-
-          <motion.div
-            variants={containerVariants}
-            className="grid md:grid-cols-2 gap-8"
-          >
-            {education.map((edu, index) => (
-              <motion.div
-                key={index}
-                variants={itemVariants}
-                className="bg-gradient-to-br from-primary-50 to-white dark:from-dark-800 dark:to-dark-900 rounded-xl p-6 shadow-lg border border-primary-200 dark:border-primary-800"
-              >
-                <div className="flex items-center mb-4">
-                  <div className="p-3 bg-primary-100 dark:bg-primary-900/30 rounded-lg mr-4">
-                    <Building2 className="w-6 h-6 text-primary-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold text-dark-900 dark:text-white">
-                      {edu.degree}
-                    </h3>
-                    <p className="text-primary-600 font-medium">
-                      {edu.institution}
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="space-y-2 text-sm text-dark-600 dark:text-dark-300">
-                  <div className="flex items-center">
-                    <MapPin size={14} className="mr-2" />
-                    {edu.location}
-                  </div>
-                  <div className="flex items-center">
-                    <Calendar size={14} className="mr-2" />
-                    {edu.period}
-                  </div>
-                  <div className="font-semibold text-primary-600">
-                    Promedio: {edu.gpa}
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </motion.div>
-        </motion.div>
       </div>
     </section>
   )

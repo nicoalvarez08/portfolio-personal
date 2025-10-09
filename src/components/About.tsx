@@ -113,8 +113,9 @@ const About: React.FC = () => {
             </motion.p>
             
             <motion.p variants={itemVariants}>
-              Ahora busco oportunidades en empresas líderes como <span className="text-primary-600 font-semibold">Globant y MercadoLibre</span>, 
-              donde pueda aplicar mis conocimientos y contribuir al desarrollo de proyectos tecnológicos de impacto. ¡Amo lo que hago! ❤️
+              Actualmente busco oportunidades en <span className="text-primary-600 font-semibold">empresas tecnológicas líderes</span>{' '}
+              donde pueda aplicar mis conocimientos, seguir aprendiendo y contribuir al desarrollo de proyectos innovadores de alto impacto. 
+              ¡Amo lo que hago y estoy listo para crecer profesionalmente! 🚀
             </motion.p>
           </motion.div>
         </div>
